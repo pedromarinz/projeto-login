@@ -7,13 +7,15 @@
 */
 
 * {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
   background-color: #5f2c82;
   height: 100vh;
   width: 100vw;
@@ -35,7 +37,7 @@ section#login {
   width: 250px;
   height: 515px;
   border-radius: 20px;
-  box-shadow: 0px 0px 10px rgba(0, 0 , 0.450);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0.45);
 
   transform: translate(-50%, -50%);
   transition: width 0.3s, height 0.3s;
@@ -80,7 +82,7 @@ div.campo > label {
 
 span.material-icons {
   color: white;
- /* background-color: black; */
+  /* background-color: black; */
   font-size: 2em;
   width: 40px;
   padding: 5px;
@@ -94,7 +96,7 @@ div.campo > input {
   border: 0px;
   border-radius: 8px;
   padding: 4px;
-  transform: translateY(-12px);
+  transform: translateY(-13px);
 }
 
 div.campo > input:focus-within {
@@ -102,7 +104,7 @@ div.campo > input:focus-within {
   border: none;
 }
 
-form > input[type=submit] {
+form > input[type="submit"] {
   display: block;
   font-size: 1em;
   width: 100%;
@@ -113,7 +115,7 @@ form > input[type=submit] {
   cursor: pointer;
 }
 
-form > input[type=submit]:hover {
+form > input[type="submit"]:hover {
   background-color: #2d6462;
 }
 
